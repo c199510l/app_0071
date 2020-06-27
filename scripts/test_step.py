@@ -20,6 +20,7 @@ class TestSetup:
     @allure.severity(allure.severity_level.MINOR)   # 比一般低的用例
     def test_004(self):
         assert True
+
     @allure.severity(allure.severity_level.TRIVIAL) # 可以忽略的用例
     def test_005(self):
         assert True
